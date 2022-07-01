@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carne</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/reset.css">
+</head>
+<body>
+    
+    <header class="cabeça">
+        <h1>Calculadora da Carne</h1>
+    </header>
+
+    <section class="conteiner">
+        <div class="border-box">
+            <p class="main-text" id="text-main">
+                Peso da Carne<input type="number" id="kilocarne" name="kilocarne" placeholder="1000" required><br>
+                Peso do bife: 200<br>
+                Considerando a conta:<br>
+                (Carne / bife) / 2 + 1
+            </p>          
+        </div>
+
+        <button type="button" name="botao" class="button" id="buttonGet" onclick="get();">Calcular</button>
+        <button type="button" name="botao" class="button" id="buttonBack" onclick="back();">Novamente</button>
+    </section>
+
+    <script src="JavaScript/Operação.js"></script>
+</body>
+</html>
